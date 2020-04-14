@@ -592,14 +592,14 @@ body:after {
     font-size: 3rem;
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
-    position: absolute;
+    position: static;
     right: -5%;
     bottom: 0;
-    z-index: 1;}
-    /* max-width: 950px; } */
-    /* @media (max-width: 991.98px) {
+    z-index: 1;
+    max-width: 950px; }
+    @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
-        right: -25%; } } */
+        right: -25%; } }
 
 .section-title {
   position: relative;
