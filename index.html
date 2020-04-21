@@ -260,38 +260,25 @@
             <h2 class="section-title text-center mb-5">Contact Form</h2>
           </div>
         </div>
-        <form method="post" action="https://formspree.io/maydryyn" class="form">
-          <div class="row mb-4">
-            <div class="form-group col-6">
-              <input name="name" type="text" class="form-control" placeholder="Full name">
-            </div>
-          </div>
+        <!-- modify this form HTML and place wherever you want your form -->
 
-          <div class="row mb-4">
-            <div class="form-group col-12">
-              <input name="_replyto" type="email" class="form-control" placeholder="Email address">
-            </div>
-          </div>
+<form
+  action="https://formspree.io/maydryyn"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
 
-          <div class="row mb-4">
-            <div class="form-group col-12">
-              <input name="Subject" type="text" class="form-control" placeholder="Subject of the message">
-            </div>
-          </div>
+  <!-- your other form fields go here -->
 
-          <div class="row mb-4">
-            <div class="form-group col-12">
-              <textarea name="message" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <input type="submit" class="btn btn-primary" value="Send Message">
-            </div>
-          </div>
-
-        </form>
+  <button type="submit">Send</button>
+</form>
       </div>
     </section>
 
