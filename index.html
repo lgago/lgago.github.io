@@ -266,18 +266,34 @@
   action="https://formspree.io/maydryyn"
   method="POST"
 >
+<div class="row mb-4">
+  <div class="form-group col-12">
   <label>
     Your email:
     <input type="text" name="_replyto">
   </label>
+  </div>
+    </div>
+    <div class="row mb-4">
+      <div class="form-group col-12">
+        <input name="Subject" type="text" class="form-control" placeholder="Subject of the message">
+      </div>
+    </div>
+  <div class="row mb-4">
+    <div class="form-group col-12">
   <label>
     Your message:
     <textarea name="message"></textarea>
   </label>
+  </div>
+    </div>
 
   <!-- your other form fields go here -->
-
-  <button type="submit">Send</button>
+  <div class="row">
+    <div class="col-md-6">
+      <button type="submit">Send</button>
+    </div>
+  </div>
 </form>
       </div>
     </section>
